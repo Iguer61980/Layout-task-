@@ -1,0 +1,47 @@
+body{
+    background-color:darkseagreen;
+    color:black;
+    margin:0;
+    font: 1.2em/1.2;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+    
+}
+img{
+    max-width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+nav{
+    background-color:seagreen;
+    padding: .5em;
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+}
+nav ul{
+    margin:10px;
+    padding:10px;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+
+}
+h1{
+font-size:200%;
+padding:20px;
+margin:0 auto;
+max-width:980px;
+text-align:center;
+}
+p{
+font-size:150%;
+padding:20px;
+margin:0 auto;
+max-width: 980px;
+text-align: center;
+}
