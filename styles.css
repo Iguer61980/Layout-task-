@@ -6,6 +6,7 @@ body{
     font-family:'Times New Roman', Times, serif;
     line-height: 1.5;
     
+    
 }
 img{
     max-width:100%;
@@ -37,9 +38,18 @@ padding:20px;
 margin:0 auto;
 max-width:980px;
 text-align:center;
+
+}
+h2{
+font-size: 200%;
+padding: 20px;
+margin:0 auto;
+max-width: 980px;
+text-align:left;
+
 }
 p{
-font-size:150%;
+font-size:160%;
 padding:20px;
 margin:0 auto;
 max-width: 980px;
