@@ -30,6 +30,8 @@ nav ul{
     list-style:none;
     display:flex;
     justify-content:space-around;
+    font-size:160%;
+
 
 }
 h1{
@@ -42,14 +44,14 @@ text-align:center;
 }
 h2{
 font-size: 200%;
-padding: 20px;
+padding: .5em;
 margin:0 auto;
 max-width: 980px;
 text-align:left;
 
 }
 p{
-font-size:160%;
+font-size:150%;
 padding:20px;
 margin:0 auto;
 max-width: 980px;
