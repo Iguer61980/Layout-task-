@@ -3,27 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Isabella Guerrero - Portfolio HTML</title>
+        <title>Isabella Guerrero - Web Development Portfolio</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#extras">Extras</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
-        <header>
+        <header id="home" class="hero">
             <h1>Isabella Guerrero</h1>
-            <p> Portfolio</p>
+            <p> Web Development & Educational Technology Portfolio</p>
         </header>
     
-        <main>
-            <section id="about">
+        
+            <section id="about" class="section">
                 <h2>About Me</h2>
-                <img src="./images/IMG_20250826_220652_940.webp" alt="My photo! might change it to a more professional one later.." width="350" height="400">
+                <img src="./images/IMG_1.jpg" alt="Photo of Isabella" class="profile-img" width="400" height="400"/>
                 <p> Hello! My name is Isabella Guerrero, and this portfolio showcases my experience with coding and collaboration on various programming projects. 
                     I am majoring in Secondary Education, and I am passionate about integrating technology and coding into the classroom.
                 My goal is to create engaging lessons and presentations that help students connect with digital literacy and problem-solving in meaningful ways.
@@ -32,26 +34,29 @@
 
             </section>
 
-            <section id="portfolio">
-                <h2>My work or Samples</h2>
+            <section id="portfolio" class="section">
+                <h2>Project Samples</h2>
 
-                <article>
-                    <h2>First sample</h2>
+                <article class="card">
+                    <h3>Project One Title</h3>
                     <p> Description. </p>
-            
+                    <a href="#" class="btn" target="_blank">View GitHub Repository</a>
                 </article>
-                <article>
-                    <h2>Second Sample</h2>
+                <article class="card">
+                    <h3>Project Two Title</h3>
                     <p> Description.</p>
+                    <a href="#" class="btn" target="_blank">View GitHub Repository</a>
                 </article>
             </section>
-        </Main>
-        <footer>
-            <section id="contact">
-                <h2>Contact info</h2>
-                <p>Email: iguer303@nmsu.edu</p>
- 
-            </section>        
+
+            <section id="extras" class="section">
+                <h2>Additional Materials</h2>
+                <p>You may include lesson plans, teaching artifacts, creative work</p>
+            </section>
+        
+        <footer id="contact">
+                <h2>Contact Information</h2>
+                <p>Email: iguer303@nmsu.edu</p>       
         </footer>
     
     </body>
